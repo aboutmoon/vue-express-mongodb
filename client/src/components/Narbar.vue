@@ -22,10 +22,10 @@
         <li v-if="auth==''" class="nav-item">
           <router-link class="nav-link" to="/register">Register</router-link>
         </li>
-        <li v-if="auth=='loggedin'" class="nav-item">
+        <li v-if="auth" class="nav-item">
           <router-link class="nav-link" to="/profile">Profile</router-link>
         </li>
-        <li v-if="auth=='loggedin'" class="nav-item">
+        <li v-if="auth" class="nav-item">
           <a class="nav-link" href="" v-on:click="logout">Logout</a>
         </li>
       </ul>
@@ -35,10 +35,8 @@
 
 <script>
 import EventBus from './EventBus'
-
-EventBus.$on('logged-in', test => {
-  console.log(test)
-})
+import JwtDecode from 'jwt-decode'
+import {removeToken, getToken} from '../../utils/auth'
 
 export default {
   data () {
@@ -50,13 +48,18 @@ export default {
 
   methods: {
     logout () {
-      localStorage.removeItem('usertoken')
+      removeToken()
     }
   },
 
   mounted () {
     EventBus.$on('logged-in', status => {
-      this.auth = status
+      const token = getToken()
+      if (token) {
+        let user = JwtDecode(token)
+        console.log(user)
+        this.auth = token
+      }
     })
   }
 }

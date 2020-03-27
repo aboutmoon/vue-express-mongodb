@@ -28,6 +28,8 @@ export default {
   data () {
     const token = getToken()
     const decoded = jwtDecode(token)
+    console.log(token)
+    console.log(decoded)
     return {
       name: decoded.name,
       email: decoded.email

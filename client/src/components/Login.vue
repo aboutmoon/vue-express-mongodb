@@ -40,17 +40,18 @@ export default {
     login () {
       request.post('/api/users/login', {
         email: this.email,
-        password: this.pass
+        password: this.password
       }).then(res => {
-        setToken(res.data)
+        setToken(res.data.token)
         this.email = ''
         this.password = ''
         router.push({name: 'Profile'})
+        this.emitMethod()
       }).catch(err => {
         console.log(err)
       })
-      this.emitMethod()
     },
+
     emitMethod () {
       EventBus.$emit('logged-in', 'loggedin')
     }

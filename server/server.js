@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
+const validateToken = require('./middlewares/validateToken')
 
 const app = express()
 const mongoose = require('mongoose')
@@ -17,8 +18,13 @@ mongoose.connect(mongoURI, {useNewUrlParser: true})
     .catch((err) => console.log(err))
 
 const Users = require('./routes/User')
+const Orders = require('./routes/Order')
 
 app.use('/api/users', Users)
+
+
+app.use(validateToken)
+app.use('/api/locations', Orders)
 
 app.listen(port, function () {
     console.log('server is running on port: ' + port)

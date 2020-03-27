@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08d3441b-e5c9-4e44-a677-6d9daa6915ea" name="Default Changelist" comment="" />
+    <list default="true" id="08d3441b-e5c9-4e44-a677-6d9daa6915ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/middlewares/validateToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/utils/LdapAuth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/utils/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Narbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Narbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Profile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,21 +44,26 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1ZKP5qSuDG0YlQJ875e0fJWZbmq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.18.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/models" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/client/utils" />
-      <recent name="$PROJECT_DIR$/client/src/components" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/utils" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/routes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/models" />
+      <recent name="$PROJECT_DIR$/server/routes" />
+      <recent name="$PROJECT_DIR$/client/utils" />
+      <recent name="$PROJECT_DIR$/client/src/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -60,12 +91,28 @@
       <workItem from="1584584634931" duration="1188000" />
       <workItem from="1584585833883" duration="5854000" />
       <workItem from="1584601983671" duration="23000" />
-      <workItem from="1584602017551" duration="15860000" />
+      <workItem from="1584602017551" duration="44716000" />
+      <workItem from="1585101428456" duration="23537000" />
+      <workItem from="1585194547098" duration="5774000" />
+      <workItem from="1585203734035" duration="17378000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
