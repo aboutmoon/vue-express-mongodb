@@ -22,7 +22,7 @@ users.post('/login', (req, res) => {
             }
             user = User.create(userData)
           }
-          console.log(user)
+
           const payload = {
             _id: user._id,
             name: user.name,
@@ -39,10 +39,6 @@ users.post('/login', (req, res) => {
             }
           })
         })
-
-
-
-
       })
       .catch(err => {
         res.status(401).json({error: err.message})

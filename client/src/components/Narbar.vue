@@ -39,6 +39,7 @@ import JwtDecode from 'jwt-decode'
 import {removeToken, getToken} from '../../utils/auth'
 
 export default {
+
   data () {
     return {
       auth: '',

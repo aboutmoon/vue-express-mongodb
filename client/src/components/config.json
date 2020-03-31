@@ -1,0 +1,40 @@
+{
+  "locations": [
+    {
+      "country": "China",
+      "name": "ShangHai",
+      "rooms": [
+        {
+          "name": "romeA"
+        },
+        {
+          "name": "romeB"
+        },
+        {
+          "name": "romeC"
+        },
+        {
+          "name": "romeD"
+        }
+      ]
+    },
+    {
+      "country": "China",
+      "name": "XiAn",
+      "rooms": [
+        {
+          "name": "XromeA"
+        },
+        {
+          "name": "XromeB"
+        },
+        {
+          "name": "XromeC"
+        },
+        {
+          "name": "XromeD"
+        }
+      ]
+    }
+  ]
+}

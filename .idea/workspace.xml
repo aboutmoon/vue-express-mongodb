@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d3441b-e5c9-4e44-a677-6d9daa6915ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/middlewares/validateToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/models/Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/utils/LdapAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/utils/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/TimeSelect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Narbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Narbar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Profile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Profile.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middlewares/validateToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middlewares/validateToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/Order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/Order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,16 +47,17 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/utils" />
-      <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$/routes" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/models" />
       <recent name="$PROJECT_DIR$/server/routes" />
       <recent name="$PROJECT_DIR$/client/utils" />
       <recent name="$PROJECT_DIR$/client/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components" />
+      <recent name="$PROJECT_DIR$/server/utils" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/routes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,8 +88,19 @@
       <workItem from="1584602017551" duration="44716000" />
       <workItem from="1585101428456" duration="23537000" />
       <workItem from="1585194547098" duration="5774000" />
-      <workItem from="1585203734035" duration="17378000" />
+      <workItem from="1585203734035" duration="24622000" />
+      <workItem from="1585296185261" duration="6468000" />
+      <workItem from="1585304687167" duration="311000" />
+      <workItem from="1585305148798" duration="29908000" />
     </task>
+    <task id="LOCAL-00001" summary="login with ldap authenticate">
+      <created>1585279697944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585279697944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +118,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login with ldap authenticate" />
+    <option name="LAST_COMMIT_MESSAGE" value="login with ldap authenticate" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

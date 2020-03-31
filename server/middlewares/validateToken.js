@@ -7,6 +7,7 @@ module.exports = function (req,res,next) {
   if (token && token.startsWith('Bearer ')) {
     token = token.slice(7, token.length)
   }
+
   if (token && jwt.verify(token, config.secret)) {
     next()
   } else {
